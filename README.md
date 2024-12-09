@@ -1,0 +1,1 @@
+# Whitenoise pathing bug reproduction
