@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Whitenoise Bug</title>
+  </head>
+  <body>
+    <div style="display: flex;flex-direction: column;align-items: center;">
+      <img src="{% static "/picture.jpg" %}" alt="a mountain" style="height: 20rem;">
+      <p>This is a mountain</p>
+    </div>
+  </body>
+  <style>
+  html,body {
+    height: 100%;
+  }
+  </style>
+</html>
